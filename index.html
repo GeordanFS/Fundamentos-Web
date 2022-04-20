@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Perfil</title>
+<!-- 
+um tipo de colocar estilo (id é com #) 
+        <style> 
+        .center {text-align: center;}
+        </style>
+-->
+ <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
 <body>
+<ul id="menu">
+    <li>
+    <a href="index.html">Home</a>
+    </li>
 
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
-    </ul>
-    <h1>Sobre o Geordan</h1>
-    <p>
+    <li>
+    <a href="contato.html">Contato</a>
+    </li>
+</ul>
+
+<h1 class="center">Sobre o Geordan</h1>
+<div class="container">
+    <div class="p30">
+        <p class="center" style="font-size: 18px;">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, explicabo. Harum necessitatibus voluptates cum, eos et illum atque hic possimus omnis cumque dolorem commodi architecto, similique aliquid fugiat nostrum expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere expedita libero laborum consequuntur fugit officiis quasi? Ad voluptatem iure modi eos ab aperiam voluptas consequatur in, quo officiis tempora repellendus fugit sequi nesciunt quae delectus sapiente placeat. Soluta eveniet commodi, placeat nam ducimus ipsum libero assumenda obcaecati consequuntur quibusdam cupiditate.
-    </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere, dolorum ullam excepturi voluptate accusantium eligendi. Excepturi, in a? Voluptatem, ipsum odio. Dolore natus non necessitatibus veniam atque quia illum expedita beatae incidunt, earum placeat maxime sequi aspernatur at ipsam soluta magnam aliquam distinctio pariatur quasi quam illo inventore eum ab. Ullam aliquam quia minus porro ipsum culpa, dolorum eius at magni ea neque reprehenderit animi reiciendis maxime quas perspiciatis minima possimus voluptates adipisci odit tenetur iure quis necessitatibus temporibus. Commodi molestias fugit natus recusandae, rem sapiente corporis amet ipsa ea eveniet earum eaque dolorum, accusantium doloremque? Unde, similique libero?</p>
+        </p>
+    
+        <p class="center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere, dolorum ullam excepturi voluptate accusantium eligendi. Excepturi, in a? Voluptatem, ipsum odio. Dolore natus non necessitatibus veniam atque quia illum expedita beatae incidunt, earum placeat maxime sequi aspernatur at ipsam soluta magnam aliquam distinctio pariatur quasi quam illo inventore eum ab. Ullam aliquam quia minus porro ipsum culpa, dolorum eius at magni ea neque reprehenderit animi reiciendis maxime quas perspiciatis minima possimus voluptates adipisci odit tenetur iure quis necessitatibus temporibus. Commodi molestias fugit natus recusandae, rem sapiente corporis amet ipsa ea eveniet earum eaque dolorum, accusantium doloremque? Unde, similique libero?
+        </p>
+    </div>
+        
+    <div >
+        <img class="br50 wh300 p30" src="assets/img/ney.jpg" alt="Foto do Neymar">
+    </div>
 
-    <img src="assets/img/ney.jpg" alt="Foto do Neymar">
+    
+</div>
+    
 
-    <h2>Meu vídeo predileto</h2>
-
+    <h2 class="center">Meu vídeo predileto</h2>
+<div class="container marginbaixo">
     <iframe width="560"
      height="315"
     src="https://www.youtube.com/embed/pottCD-GwiU" 
@@ -33,6 +54,18 @@
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
-    </iframe>
+</iframe>
+</div>
+
+<hr>
+<footer>
+    <div class="container">
+        <a href="https://www.instagram.com" target="_blank">
+            <img class="tmlogo p30" src="assets/img/instagram.png" alt="Logo do Insta">
+        </a>
+    </div>
+    <p class="center">
+    Geordan Fagundes &copy; </p>
+</footer>
 </body>
 </html>
